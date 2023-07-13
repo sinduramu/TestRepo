@@ -1,0 +1,18 @@
+package javapratice;
+
+import java.util.*;
+import java.sql.*;
+
+public class Date {
+
+	public static void main(String[] args) {
+		Date d = new Date();
+		System.out.println(d);
+	}
+	public Date()
+	{
+		System.out.println("test the order of seq");
+	}
+	
+}
+

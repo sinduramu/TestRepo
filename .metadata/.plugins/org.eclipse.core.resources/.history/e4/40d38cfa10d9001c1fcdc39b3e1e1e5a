@@ -1,0 +1,18 @@
+package week3.day2;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class ResponseMatchesSchema {
+
+
+	@Test
+	public void postRequestWithSchemaValidation()
+	{
+		RestAssured.baseURI = "https://dev54326.service-now.com/";
+		RestAssured.authentication = RestAssured.basic("admin", "vQr+I6yd@4YS");
+		
+	}
+
+}

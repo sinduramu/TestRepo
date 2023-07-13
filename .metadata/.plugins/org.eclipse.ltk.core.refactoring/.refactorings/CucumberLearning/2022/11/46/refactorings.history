@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;login.feature&apos; to &apos;CucumberLearning/src/test/java/testrunner&apos;&#x0D;&#x0A;- Original project: &apos;CucumberLearning&apos;&#x0D;&#x0A;- Destination element: &apos;CucumberLearning/src/test/java/testrunner&apos;&#x0D;&#x0A;- Original element: &apos;login.feature&apos;" description="Copy file" destination="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;testrunner" element1="src/test/java/testrunner/login.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667818812487" units="0" version="1.0"/>
+</session>

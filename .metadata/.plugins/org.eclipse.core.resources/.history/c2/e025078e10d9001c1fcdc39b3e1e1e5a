@@ -1,0 +1,14 @@
+package week3.day2;
+
+import org.testng.annotations.Test;
+
+public class ResponseMatchesSchema {
+
+
+	@Test
+	public void postRequestWithSchemaValidation()
+	{
+
+	}
+
+}

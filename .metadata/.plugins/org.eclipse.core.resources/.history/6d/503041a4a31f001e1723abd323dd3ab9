@@ -1,0 +1,11 @@
+package javapratice;
+
+public class MultipleClassTest {
+	
+	public static void main(String[] args) {
+		ArrayList<String> A = new ArrayList<String>();
+				
+	}
+
+}
+

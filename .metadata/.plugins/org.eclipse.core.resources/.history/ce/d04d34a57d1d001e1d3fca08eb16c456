@@ -1,0 +1,34 @@
+package seleniumTest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+public class ListTest {
+
+	public static void main(String[] args) {
+		
+		
+		List<String> str1 = new ArrayList<String>();
+		List<Integer> int1 = new ArrayList<Integer>();
+		str1.add("apple");
+		str1.add("orange");
+		str1.add("banana");
+		str1.add("gova");
+		int1.add(10);
+		int1.add(20);
+		int1.add(30);
+		int1.add(40);
+		String str = str1.get(0);
+		Integer intv = int1.get(1);
+		System.out.println(str);
+		System.out.println(intv);
+		System.out.println("*************");
+		for(int i=0;i<str1.size();i++)
+		{
+			System.out.println(str1.get(i));
+		}
+	}
+
+}

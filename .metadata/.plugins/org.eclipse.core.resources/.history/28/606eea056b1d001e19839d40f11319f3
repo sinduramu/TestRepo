@@ -1,0 +1,21 @@
+package seleniumTest;
+
+import interfacepack.interOne;
+
+public class InterfaceTest implements interOne {
+
+	public static void main(String[] args) {
+		
+	}
+
+	public void test() {
+		System.out.println("test");
+	}
+
+	public void testOne() {
+		System.out.println("test one");
+		
+		
+	}
+
+}

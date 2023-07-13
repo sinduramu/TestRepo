@@ -1,0 +1,23 @@
+package seleniumTest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListTest {
+
+	public static void main(String[] args) {
+		
+		
+		List<String> str1 = new ArrayList<String>();
+		List<Integer> int1 = new ArrayList<Integer>();
+		str1.add("apple");
+		str1.add("orange");
+		str1.add("banana");
+		str1.add("gova");
+		for(int i=0;i<str1.size();i++)
+		{
+			System.out.println(str1.get(i));
+		}
+	}
+
+}

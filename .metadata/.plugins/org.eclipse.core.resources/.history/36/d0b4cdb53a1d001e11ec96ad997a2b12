@@ -1,0 +1,54 @@
+package seleniumTest;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class HandleDropDown {
+
+	public static void main(String[] args) {
+		// 
+		// TODO Auto-generated method stub
+				System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+				ChromeDriver driver = new ChromeDriver();
+				driver.manage().window().maximize();
+				driver.get("https://letcode.in/dropdowns");
+				WebElement ele = driver.findElement(By.id("fruits"));
+				Select sel=new Select(ele);
+				sel.selectByVisibleText("Mango");
+				WebElement ele1 = driver.findElement(By.id("country"));
+				Select sel1=new Select(ele1);
+				sel1.selectByValue("India");
+				WebElement firstOption=sel1.getFirstSelectedOption();
+				System.out.println(firstOption.getText());
+				WebElement ele2 = driver.findElement(By.id("superheros"));
+				Select sel2=new Select(ele2);
+				boolean multiple = sel2.isMultiple();
+				System.out.println(multiple);
+				sel2.selectByIndex(1);
+				sel2.selectByValue("ca");
+				sel2.selectByVisibleText("Doc Savage");
+				sel2.deselectByIndex(1);
+				
+				List<WebElement> ls=sel2.getAllSelectedOptions();
+				System.out.println("******************************");
+				for(int i=0;i<ls.size();i++)
+				{
+					String text = ls.get(i).getText();
+					System.out.println(text);
+				}
+				
+				System.out.println("******************************");
+				List<WebElement> ls1=sel1.getOptions();
+				for(int i=0;i<ls1.size();i++)
+				{
+					System.out.println(ls1.get(i).getText());
+					
+				}
+				
+	}
+
+}

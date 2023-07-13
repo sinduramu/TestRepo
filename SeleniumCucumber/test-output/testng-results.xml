@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T19:52:48 SGT" name="Default suite" finished-at="2023-07-09T19:52:57 SGT" duration-ms="8398">
+    <groups>
+    </groups>
+    <test started-at="2023-07-09T19:52:48 SGT" name="Default test" finished-at="2023-07-09T19:52:57 SGT" duration-ms="8398">
+      <class name="SeleniumCucumber.SeleniumCucumber.LoginTest">
+        <test-method signature="meth(java.lang.String,java.lang.String)[pri:0, instance:SeleniumCucumber.SeleniumCucumber.LoginTest@f736069]" started-at="2023-07-09T19:52:48 SGT" name="meth" data-provider="login" finished-at="2023-07-09T19:52:53 SGT" duration-ms="4622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sinduramu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kalidas.87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+        <test-method signature="meth(java.lang.String,java.lang.String)[pri:0, instance:SeleniumCucumber.SeleniumCucumber.LoginTest@f736069]" started-at="2023-07-09T19:52:53 SGT" name="meth" data-provider="login" finished-at="2023-07-09T19:52:57 SGT" duration-ms="3751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[indumathi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kannan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+      </class> <!-- SeleniumCucumber.SeleniumCucumber.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

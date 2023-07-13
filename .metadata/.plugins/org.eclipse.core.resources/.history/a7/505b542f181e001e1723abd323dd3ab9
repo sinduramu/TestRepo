@@ -1,0 +1,26 @@
+package SeleniumCucumber.SeleniumCucumber;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class LoginTest {
+	
+	
+@Test	
+public  void meth()
+{
+	
+	
+	ChromeDriver driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	driver.get("https://letcode.in/");
+	
+	driver.findElement(By.linkText("Log in")).click();
+	driver.findElement(By.name("email")).sendKeys("sinduramu@gmail.com");
+	driver.findElement(By.name("password")).sendKeys("Kalidas.87");
+	driver.findElement(By.xpath("//button[contains(text(),'LOGIN')]")).click();
+	driver.quit();
+}
+
+}

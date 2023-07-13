@@ -1,0 +1,17 @@
+package Pages;
+
+import Base.TestBase;
+
+public class HomePage {
+
+	public static TestBase testpageobj;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		testpageobj = new TestBase();
+		
+		testpageobj.initialization().get("https://www.redbus.in");
+	}
+
+}
